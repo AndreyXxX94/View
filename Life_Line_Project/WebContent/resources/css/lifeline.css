@@ -1,0 +1,93 @@
+h1 {color:red;}
+p {color:blue;}
+
+body
+{
+margin:0px;
+}
+
+
+.mtp
+{
+position:fixed;
+width:100%;
+height:50px;
+top:0px;
+left:0px;
+padding:0px;
+background:#ffffff;
+border:1px solid #e1e1e1;
+z-index:2;
+}
+
+.mic
+{
+position:fixed;
+width:50px;
+height:100%;
+background:#ffffff;
+border:1px solid #e1e1e1;
+top:51px;
+max-width:50px;
+overflow:hidden;
+left:0px;
+}
+
+.mlt               
+{
+position:fixed;
+width:0px;
+height:100%;
+background:#ffffff;
+border:1px solid #e1e1e1;
+top:51px;
+overflow:hidden;
+left:0px;
+}
+
+.mlto{
+position:fixed;
+width:200px;
+height:100%;
+background:#ffffff;
+border:1px solid #e1e1e1;
+top:51px;
+overflow:hidden;
+left:0px;
+}
+
+.mic-section
+{
+width:100%;
+height:50px;
+border:1px solid #e1e1e1;
+background:transparent;
+}
+
+.mlt-section
+{
+width:100%;
+height:50px;
+border:1px solid #e1e1e1;
+background:transparent;
+}
+
+.mic-cl
+{
+width: 10px;
+height:100%;
+float: right;
+border:1px solid #e1e1e1;
+background:red;
+}
+
+.page
+{
+margin-top:50px;
+margin-left:5px;
+width:100%;
+height:100%;
+background:#f0f0f0;
+z-index:1;
+}
+

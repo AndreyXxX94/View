@@ -22,7 +22,6 @@
 	</script>
 </head>
 <body>
-
 	<div class="mtp">
 	</div>
 	
@@ -40,22 +39,10 @@
 		
 	<div class="page">
 	
-	
 	<div class="inftcnt"></div>
 	<div class="infocnt"></div>
 	
 	</div>
-	
-	<div id="menu-icon" class="mic">
-	
-	</div>
-	
-	<div id="menulftopen" class="mlto">
-	</div>
-		
-	<div class="page">
-	
-	<div class="inftcnt"></div>
 	
 
 </body>

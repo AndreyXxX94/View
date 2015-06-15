@@ -11,6 +11,7 @@
 		$('#menu-icon').click(function() {
 			$("#menu-icon").animate({"left":"200px"}, 1000);
 			$("#menu-left").animate({"width":"200px"}, 1000);
+			$("#prova1").animate({"left":"250px"}, 1000);
 		});
 		
 		$('#click1').click(function() {
@@ -37,10 +38,9 @@
 	<div id="menulftopen" class="mlto">
 	</div>
 		
-	<div class="page">
+	<div id="prova1"class="page">
 	
 	<div class="inftcnt"></div>
-	<div class="infocnt"></div>
 	
 	</div>
 	

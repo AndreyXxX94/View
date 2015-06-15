@@ -7,7 +7,12 @@
 	
 	 
 	$( document ).ready(function() {
-// 		$("#menulftopen").hide();
+		$('#nav-icon').on('click', function(e){
+		      e.preventDefault();
+		      $(this).parent().toggleClass('nav--active');
+		    });
+		
+		// 		$("#menulftopen").hide();
 		
 // 		$('#menu-icon').click(function() {
 // 			$("#menu-icon").animate({"left":"200px"}, 1000);
@@ -18,23 +23,31 @@
 // 		$('#click1').click(function() {
 // 			$("#menulftopen").show("slow");
 // 		});
-		$("#menu-toggle").click(function(e) {
+		$("#nav-icon").click(function(e) {
 	        e.preventDefault();
 	        $("#wrapper").toggleClass("toggled");
 	    });
 		
-		
+
 	});
+	
+	
 	
 	</script>
 </head>
 <body>
-<div class="mn"><i class="fa fa-bars" style="color:#fff;" id="menu-toggle"></i></div>
+<div class="mn">
+
+<div class="nvicn" id="nav-icon">
+<span class="nav__icon"></span>
+</div>
+
+</div>
 <div class="micn"></div> 
 <div id="wrapper">
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper"></div>
+        <div id="sidebar-wrapper">
 
         <!-- /#sidebar-wrapper -->
 
@@ -51,6 +64,7 @@
         </div>
         <!-- /#page-content-wrapper -->
 
+    </div>
     </div>
 </body>
 </html>

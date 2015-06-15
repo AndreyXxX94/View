@@ -43,11 +43,15 @@
 </div>
 
 </div>
-<div class="micn"></div> 
+<div class="micn">
+<div class="section-mn-icn"></div>
+</div> 
 <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
+        <div class="section-mn-lft"></div>
+        </div>
 
         <!-- /#sidebar-wrapper -->
 
@@ -65,6 +69,6 @@
         <!-- /#page-content-wrapper -->
 
     </div>
-    </div>
+    
 </body>
 </html>

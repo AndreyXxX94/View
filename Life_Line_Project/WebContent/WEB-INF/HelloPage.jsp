@@ -1,74 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>name</title>
-	<script type="text/javascript">
-	
-	 
-	$( document ).ready(function() {
-		$('#nav-icon').on('click', function(e){
-		      e.preventDefault();
-		      $(this).parent().toggleClass('nav--active');
-		    });
-		
-		// 		$("#menulftopen").hide();
-		
-// 		$('#menu-icon').click(function() {
-// 			$("#menu-icon").animate({"left":"200px"}, 1000);
-// 			$("#menu-left").animate({"width":"200px"}, 1000);
-// 			$("#prova1").animate({"left":"250px"}, 1000);
-// 		});
-		
-// 		$('#click1').click(function() {
-// 			$("#menulftopen").show("slow");
-// 		});
-		$("#nav-icon").click(function(e) {
-	        e.preventDefault();
-	        $("#wrapper").toggleClass("toggled");
-	    });
-		
+<!DOCTYPE html><html><head>
 
+<meta charset="UTF-8">
+<title>view</title>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+	
+	$("#nav").hover(function() {
+	$("#wrapper").toggleClass('toggled');
+	});
+
+	$("#naa").click(function() {
+	$("#mov").toggleClass('toggled');
 	});
 	
-	
-	
-	</script>
+	$("#noa").click(function() {
+		$("#mov").toggleClass('toggled');
+		});
+
+});
+</script>
 </head>
+
 <body>
-<div class="mn">
 
-<div class="nvicn" id="nav-icon">
-<span class="nav__icon"></span>
+<div class="topmn">
+
+	<!-- logo -->
+	<div class="logo"><%@ include file="/WEB-INF/logo.jsp"%></div>
+	<!-- space -->
+	<div class="spa"></div>
+
+
 </div>
 
+<div class="iconmn" id="nav"><%@ include file="/WEB-INF/icons.jsp"%><button id="naa">apri</button></div>
+
+<div id="sidebar-menu"></div>
+
+	<div id="wrapper">
+
+			
+			
+			<div id="mov">
+			<div id="movdscr"><button id="noa">apri l'altro</button></div>
+			<div id="movicn"><%@ include file="/WEB-INF/icons.jsp"%></div>
+			</div>
+
+<div id="page-content-wrapper">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-12" style="background:white;height:20px;">
+
+</div></div>
 </div>
-<div class="micn">
-<div class="section-mn-icn"></div>
-</div> 
-<div id="wrapper">
+</div>
+	
+</div>		
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-        <div class="section-mn-lft"></div>
-        </div>
 
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                       
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    
 </body>
 </html>

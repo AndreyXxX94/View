@@ -1,63 +1,37 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html>
+<head>
 
 <meta charset="UTF-8">
-<title>view</title>
 
-<script type="text/javascript">
-$( document ).ready(function() {
-	
-	$("#nav").hover(function() {
-	$("#wrapper").toggleClass('toggled');
-	});
+<script type="text/javascript">$(document).ready(function() {	$("#mn").mouseenter(function() {$("#container").addClass("toggled");});
+$("#mn").mouseleave(function() {$("#container").removeClass("toggled");});});</script>
 
-	$("#naa").click(function() {
-	$("#mov").toggleClass('toggled');
-	});
-	
-	$("#noa").click(function() {
-		$("#mov").toggleClass('toggled');
-		});
-
-});
-</script>
 </head>
-
 <body>
 
+<!-- logo & menu -->
 <div class="topmn">
-
-	<!-- logo -->
-	<div class="logo"><%@ include file="/WEB-INF/logo.jsp"%></div>
-	<!-- space -->
-	<div class="spa"></div>
-
-
+<%@ include file="/WEB-INF/logo.jsp"%>
 </div>
-
-<div class="iconmn" id="nav"><%@ include file="/WEB-INF/icons.jsp"%><button id="naa">apri</button></div>
-
-<div id="sidebar-menu"></div>
-
-	<div id="wrapper">
-
+<%@ include file="/WEB-INF/cnt-mn.jsp"%>
+<!-- /# logo & menu -->
+		
+<!-- page -->		
+<div id="container">
+<div id="page">
 			
-			
-			<div id="mov">
-			<div id="movdscr"><button id="noa">apri l'altro</button></div>
-			<div id="movicn"><%@ include file="/WEB-INF/icons.jsp"%></div>
-			</div>
-
-<div id="page-content-wrapper">
 <div class="container-fluid">
 <div class="row">
-<div class="col-lg-12" style="background:white;height:20px;">
+<div class="col-lg-12" style="background: white; height: 20px;">
 
-</div></div>
 </div>
 </div>
-	
-</div>		
+</div>
 
+</div>
+</div>
+<!-- /# page -->
 
 </body>
 </html>

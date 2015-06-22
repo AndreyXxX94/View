@@ -1,21 +1,38 @@
-html,body{background:#e3e4e5;height: 100%;margin:0;}
+/*html,body{height: 100%;margin:0;}
 
 #container{padding-left: 0;-webkit-transition: all 0.7s ease;-moz-transition: all 0.7s ease;-o-transition: all 0.7s ease;transition: all 0.7s ease;
-margin-left:40px;margin-top:0px;z-index:5000;height:100vh;padding-top:40px;}
+margin-left:40px;margin-top:0px;z-index:5000;height:100%;}
 
 #container.toggled{padding-left: 100px;}
 
 #container.toggled #page{position: absolute;margin-right: -240px;}
-
+*/
 .topmn{position:fixed;width:100%;height:40px;background: #00578D;top:0;left:0;z-index:6000;}
-.mn-icn{top:40px;z-index: 1000;position: fixed;width:40px;height: 100%;background: #222;}
+.mn-icn{z-index: 1000;position: fixed;width:40px;height: 100%;background: #222;}
 .section-mn-icn{border-bottom:1px solid #333;width:100%;height:40px;color:#fff;}
-.mn-dscr{top:40px;z-index: 1000;position: fixed;width:100px;height:100%;background: #222;left:40px;}
+.mn-dscr{z-index: 1000;position: fixed;width:100px;height:100%;background: #222;left:40px;}
 .section-mn-lft{border-bottom:1px solid #333;width:100%;height:40px;color:#fff;padding-top:10px;}
-
-@media(min-width:300px){#page{height:100%;padding:20px;position:relative;z-index:5000;background:#e3e4e5;}
+/*
+@media(min-width:300px){
+#container{height:100%}
+#page{height:100%;position:relative;z-index:5000;background:#ffffff;}
 #container.toggled #page{position:relative;margin-right:0}}
+
+
+
+.conts{position:relative;margin:0 auto;width:960px;height:100%;padding:0;border:1px solid red}*/
 
 .logo-cn{position:absolute;width:53px;height:40px;left:35px;top:0;}
 .logo-ex{position:absolute;width:50px;height:40px;left:0;top:0;}
+
+.shapes-lf{z-index:9000;position:fixed;width:200px;height:100%;border:1px solid #eeeeee;left:40px;}
+.shapes-rg{z-index:9000;position:fixed;width:200px;height:100%;border:1px solid #eeeeee;right:0px;}*/
+
+html{width:100%;height:100%;margin:0;padding:0;}
+body{background:#f0f0f0;}
+
+.menu-top{position:fixed;width:100%;height:40px;background:rgba(255,255,255,0.5);z-index:2;border-bottom:1px solid #eee;}
+.menu-left{position:fixed;width:140px;left:0;top:40px;height:100%;background:#fff}
+.container{position:absolute;left:140px;right:0;height:auto;top:40px;background:transparent;}
+.cont{position:relative;margin:0 auto;width:960px;height:100%;background:#fff;z-index:1;}
 

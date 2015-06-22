@@ -2,36 +2,36 @@
 <html>
 <head>
 
-<meta charset="UTF-8">
-
-<script type="text/javascript">$(document).ready(function() {	$("#mn").mouseenter(function() {$("#container").addClass("toggled");});
-$("#mn").mouseleave(function() {$("#container").removeClass("toggled");});});</script>
-
 </head>
 <body>
+<div class="topmn"><%@ include file="/WEB-INF/logo.jsp"%></div>
 
-<!-- logo & menu -->
-<div class="topmn">
-<%@ include file="/WEB-INF/logo.jsp"%>
-</div>
+<div class="menu-left">
+
 <%@ include file="/WEB-INF/cnt-mn.jsp"%>
-<!-- /# logo & menu -->
-		
-<!-- page -->		
-<div id="container">
-<div id="page">
-			
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-12" style="background: white; height: 20px;">
 
 </div>
-</div>
-</div>
+
+	
+	
+<div class="container">
+
+<div class="cont">
+<br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br>
+
+<br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br>
+
+<br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br>
+
+<br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br><br>a<br>
 
 </div>
-</div>
-<!-- /# page -->
+
+</div>	
+
+
+
+
 
 </body>
 </html>
